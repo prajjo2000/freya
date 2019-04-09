@@ -22,6 +22,11 @@
     <title>Freya|Website</title>
 
     <style type="text/css">
+
+      @font-face{
+        font-family: futurapt;
+        src:url(futurapt.otf) format("opentype") ;
+      } 
     
 .carasole{
   height: 100vh;
@@ -58,7 +63,7 @@
       color: #1F1F1F;
       font-size: 16px;
       padding-right: 20px;
-      font-family:cursive;
+      font-family:futurapt;
     }
     .navbar ul li img{
       padding-right: 12px;
@@ -95,7 +100,7 @@
     color: white;
     justify-content: center;
     margin-left: 375px;
-    font-family: cursive;
+    font-family: futurapt;
     padding: 0.6rem;
   }
   .moref1{
@@ -106,7 +111,7 @@
     color: white;
     justify-content: center;
     margin-left: 200px;
-    font-family: cursive;
+    font-family: futurapt;
     padding: 0.6rem;
   }
   .back1{
@@ -116,14 +121,14 @@
   text-align: center;
   justify-content: center;
   padding-top: 100px;
-  font-family: 'Barlow', sans-serif;
+  font-family: futurapt;
   font-size: 25px;
  }
 .middle1{
   text-align: center;
   justify-content: center;
   padding-top: 100px;
-  font-family: 'Barlow', sans-serif;
+  font-family:futurapt;
   font-size: 20px;
 }
  .container{
@@ -136,7 +141,7 @@
  .box1 h4,.box2 h4,.box3 h4{
   text-align: center;
   padding-top: 25px;
-  font-family: 'Barlow', sans-serif;
+  font-family:futurapt;
  }
   .box1 p,.box2 p,.box3 p{
   opacity: 0.75;
@@ -160,7 +165,7 @@
   padding-top: 3700px;
   color: white;
   line-height: 1rem;
-  font-family: 'Barlow', sans-serif;
+  font-family:futurapt;
   text-align: center;
       top: 50%;
       left: 50%;
@@ -177,7 +182,7 @@
   font-size: 45px;
   text-align: center;
   padding-top: 75px;
-  font-family: 'Barlow', sans-serif;
+  font-family:futurapt;
 }
 .ctext2{
   opacity: 0.75;
@@ -213,7 +218,7 @@
   padding-top: 9990px;
   color: white;
   line-height: 1rem;
-  font-family: 'Barlow', sans-serif;
+  font-family:futurapt;
   text-align: center;
       top: 50%;
       left: 50%;
@@ -231,7 +236,7 @@
   padding-top: 15390px;
   color: white;
   line-height: 1rem;
-  font-family: 'Barlow', sans-serif;
+  font-family:futurapt;
   text-align: center;
       top: 50%;
       left: 50%;
@@ -253,7 +258,7 @@
   padding-top: 20600px;
   color: white;
   line-height: 1rem;
-  font-family: 'Barlow', sans-serif;
+  font-family:futurapt;
   text-align: center;
       top: 50%;
       left: 50%;
@@ -284,7 +289,7 @@
   color: white;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Barlow', sans-serif;
+  font-family:futurapt;
 }
 .footer p{
   padding-top: 20px;
@@ -299,12 +304,69 @@
 .img113{
   padding-left: 260px; width: 1375px; padding-bottom: 105px;" 
 }
+ 
+
+/*  how to put full */
+
+.grad{
+  z-index: 11;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom,transparent,black);
+}
+
+.parallaxe1{
+  background-image: url(http://markup.themewagon.com/tryfreya/assets/images/banner_1.jpg);
+  background-color: black;
+  opacity: 0.5;
+  min-height: 87vh;
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxe2{
+  background-image: url(banner_2.jpg);
+   background-color: black;
+  opacity: 0.5;
+  min-height: 87vh;
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallaxe3{
+  background-image: url(banner_3.jpg);
+   background-color: black;
+  opacity: 0.5;
+  min-height: 87vh;
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallaxe4{
+  background-image: url(banner_4.jpg);
+   background-color: black;
+  opacity: 0.5;
+  min-height: 87vh;
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 @media only screen and (max-width:1000px){
     .navbar{
       width: 26.6%;
       margin-left: 0px;
       position: fixed;
-            position: fixed;
       top:0;
       display: flex;
       z-index: 1;
@@ -400,6 +462,7 @@
   width: 350px;
   padding-left: 20px;
 }
+
 }
     </style>
 
@@ -437,6 +500,7 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
+      <div class="grad">
       <img class="carasole" class="d-block w-100" src="http://markup.themewagon.com/tryfreya/assets/images/header_2.jpg" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
       <div class="back1">
@@ -444,6 +508,7 @@
     <h1 style="text-align: left; font-size: 55px;">Luxurious Apartment<button class="moref"><b>MORE ABOUT FREYA</b></button></h1>
   </div>
     </div>
+  </div>
   </div>
 
     <div class="carousel-item">
@@ -511,7 +576,8 @@
 
 
 <div class="banner">
-  <img style="height: 87vh;" src="http://markup.themewagon.com/tryfreya/assets/images/banner_1.jpg">
+  <!-- <img style="height: 87vh;" src="http://markup.themewagon.com/tryfreya/assets/images/banner_1.jpg"> -->
+  <div class="parallaxe1"></div>
   <div class="bannertext">
     <p class="bannertext1">Museco</p>
     <p class="bannertext2">MANITOBA</p> 
@@ -538,7 +604,8 @@
 <img class="img1" src="http://markup.themewagon.com/tryfreya/assets/images/img_6.jpg">
 
 <div class="banner2">
-<img style="height: 87vh" src="banner_2.jpg">
+<!-- <img style="height: 87vh" src="banner_2.jpg"> -->
+<div class="parallaxe2"></div>
  <div class="bannert2">
     <p class="bannerte1">A Touch of Green</p>
     <p class="bannerte2">IN BROYKLN</p> 
@@ -565,7 +632,8 @@
 </div>
 
 <div class="banner2">
-<img style="height: 87vh;" src="banner_3.jpg">
+<!-- <img style="height: 87vh;" src="banner_3.jpg"> -->
+<div class="parallaxe3"></div>
  <div class="bannert3">
     <p class="bannerte13">Prestana Remero</p>
     <p class="bannerte23">RIO DE JANERIO</p> 
@@ -601,7 +669,8 @@
 </div>
 
 <div class="banner2">
-<img style="height: 87vh;" src="banner_4.jpg">
+<!-- <img style="height: 87vh;" src="banner_4.jpg"> -->
+<div class="parallaxe4"></div>
  <div class="bannert4">
     <p class="bannerte14">Exquisite</p>
     <p class="bannerte24">HAWAI</p> 
@@ -641,7 +710,7 @@
 
 <div class="footer">
   <h4>Freya Incorporated, 019 Appellation Ave, New Jersey, 535-118-7056</h4>
-  <p>Template by Themewagon</p>
+  <p>Created by PRAJWAL SHIRUR</p>
 </div>
 
 
